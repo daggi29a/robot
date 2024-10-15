@@ -1,4 +1,0 @@
-Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j1 -l1
-Invoked command in '/home/hans/ros2_ws/build/thur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j1 -l1
-Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/thur
-Invoked command in '/home/hans/ros2_ws/build/thur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/thur

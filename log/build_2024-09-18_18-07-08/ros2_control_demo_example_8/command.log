@@ -1,4 +1,0 @@
-Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_8 -- -j1 -l1
-Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_8 -- -j1 -l1
-Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_8
-Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_8
