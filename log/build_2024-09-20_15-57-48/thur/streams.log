@@ -1,0 +1,56 @@
+[0.005s] Invoking command in '/home/hans/ros2_ws/build/thur': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install LD_LIBRARY_PATH=/home/hans/ros2_ws/install/lib PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target thur[0m
+[0.182s] [ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[4.121s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.121s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:191:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.121s]   191 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[4.121s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.121s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.121s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:256:18:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Ku_int8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K666[m[K’ to ‘[01m[K154[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[4.121s]   256 |     message[0] = [01;35m[K666[m[K;
+[4.121s]       |                  [01;35m[K^~~[m[K
+[6.693s] [ 66%] [32m[1mLinking CXX shared library libthur.so[0m
+[7.423s] [100%] Built target thur
+[7.449s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install LD_LIBRARY_PATH=/home/hans/ros2_ws/install/lib PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4
+[7.490s] Invoking command in '/home/hans/ros2_ws/build/thur': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install LD_LIBRARY_PATH=/home/hans/ros2_ws/install/lib PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /home/hans/ros2_ws/build/thur
+[7.500s] -- Install configuration: ""
+[7.500s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/thur.xml
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur/serial.hpp
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur/thur
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur/thur/thur_diff.hpp
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch/view_robot.launch.py
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/ros2_control
+[7.502s] -- Installing: /home/hans/ros2_ws/install/share/thur/ros2_control/thur.ros2_control.xacro
+[7.502s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/urdf
+[7.503s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/urdf/diffbot.urdf.xacro
+[7.503s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch
+[7.503s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch/diffbot.launch.py
+[7.503s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/config
+[7.503s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/config/diffbot_controllers.yaml
+[7.506s] -- Installing: /home/hans/ros2_ws/install/lib/libthur.so
+[7.506s] -- Set runtime path of "/home/hans/ros2_ws/install/lib/libthur.so" to ""
+[7.506s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/library_path.sh
+[7.506s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/library_path.dsv
+[7.506s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/thur
+[7.506s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/thur
+[7.506s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/ament_prefix_path.sh
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/ament_prefix_path.dsv
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/path.sh
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/path.dsv
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.bash
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.sh
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.zsh
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.dsv
+[7.507s] -- Installing: /home/hans/ros2_ws/install/share/thur/package.dsv
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/thur
+[7.507s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/thur
+[7.510s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/export_thurExport.cmake
+[7.513s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/export_thurExport-noconfig.cmake
+[7.513s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/ament_cmake_export_targets-extras.cmake
+[7.513s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.513s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/thurConfig.cmake
+[7.513s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/thurConfig-version.cmake
+[7.514s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/package.xml
+[7.514s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install LD_LIBRARY_PATH=/home/hans/ros2_ws/install/lib PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --install /home/hans/ros2_ws/build/thur

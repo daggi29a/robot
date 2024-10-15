@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target thur[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libthur.so[0m
+[100%] Built target thur
+-- Install configuration: ""
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/thur.xml
+-- Up-to-date: /home/hans/ros2_ws/install/include/thur
+-- Up-to-date: /home/hans/ros2_ws/install/include/thur/serial.hpp
+-- Up-to-date: /home/hans/ros2_ws/install/include/thur/thur
+-- Up-to-date: /home/hans/ros2_ws/install/include/thur/thur/thur_diff.hpp
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch/view_robot.launch.py
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/ros2_control
+-- Installing: /home/hans/ros2_ws/install/share/thur/ros2_control/thur.ros2_control.xacro
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/urdf
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/urdf/thur.urdf.xacro
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch/thur.launch.py
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/config
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/config/thur_controllers.yaml
+-- Installing: /home/hans/ros2_ws/install/lib/libthur.so
+-- Set runtime path of "/home/hans/ros2_ws/install/lib/libthur.so" to ""
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/library_path.sh
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/library_path.dsv
+-- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/thur
+-- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/thur
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/path.sh
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/path.dsv
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.bash
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.sh
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.zsh
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.dsv
+-- Installing: /home/hans/ros2_ws/install/share/thur/package.dsv
+-- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/thur
+-- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/thur
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/export_thurExport.cmake
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/export_thurExport-noconfig.cmake
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/thurConfig.cmake
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/thurConfig-version.cmake
+-- Up-to-date: /home/hans/ros2_ws/install/share/thur/package.xml

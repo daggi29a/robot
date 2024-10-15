@@ -1,0 +1,15 @@
+/home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demos
+/home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demos
+/home/hans/ros2_ws/install/share/ros2_control_demos/environment/ament_prefix_path.sh
+/home/hans/ros2_ws/install/share/ros2_control_demos/environment/ament_prefix_path.dsv
+/home/hans/ros2_ws/install/share/ros2_control_demos/environment/path.sh
+/home/hans/ros2_ws/install/share/ros2_control_demos/environment/path.dsv
+/home/hans/ros2_ws/install/share/ros2_control_demos/local_setup.bash
+/home/hans/ros2_ws/install/share/ros2_control_demos/local_setup.sh
+/home/hans/ros2_ws/install/share/ros2_control_demos/local_setup.zsh
+/home/hans/ros2_ws/install/share/ros2_control_demos/local_setup.dsv
+/home/hans/ros2_ws/install/share/ros2_control_demos/package.dsv
+/home/hans/ros2_ws/install/share/ament_index/resource_index/packages/ros2_control_demos
+/home/hans/ros2_ws/install/share/ros2_control_demos/cmake/ros2_control_demosConfig.cmake
+/home/hans/ros2_ws/install/share/ros2_control_demos/cmake/ros2_control_demosConfig-version.cmake
+/home/hans/ros2_ws/install/share/ros2_control_demos/package.xml

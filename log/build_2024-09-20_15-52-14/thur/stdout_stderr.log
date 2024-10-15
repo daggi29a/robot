@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target thur[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:191:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  191 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:255:40:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+  255 |     serial_port_->write_frame(message. [01;31m[K6[m[K);
+      |                                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/thur.dir/build.make:76: CMakeFiles/thur.dir/hardware/thur_diff.cpp.o] Fehler 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thur.dir/all] Fehler 2
+gmake: *** [Makefile:146: all] Fehler 2

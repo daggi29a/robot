@@ -1,0 +1,65 @@
+[0.094s] Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target thur[0m
+[0.459s] [ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[0.499s] [ 66%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/serial.cpp.o[0m
+[8.526s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.526s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:194:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.526s]   194 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[8.526s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.858s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K In member function ‘[01m[Kthur::return_type thur::ThurSerialPort::read_frames(std::vector<thur::SerialHdlcFrame>&)[m[K’:
+[9.858s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:95:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+[9.858s]    95 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+[9.858s]       |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.858s] In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:10[m[K:
+[9.858s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/serial.hpp:47:17:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kthur::ThurSerialPort::rx_buffer_[m[K’ of size 200
+[9.859s]    47 |         uint8_t [01;36m[Krx_buffer_[m[K[THUR_SERIAL_BUFFER_MAX_SIZE];
+[9.859s]       |                 [01;36m[K^~~~~~~~~~[m[K
+[9.859s] In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:7[m[K:
+[9.859s] [01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+[9.859s]   371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+[9.859s]       |                [01;36m[K^~~~[m[K
+[12.896s] [100%] [32m[1mLinking CXX shared library libthur.so[0m
+[13.957s] [100%] Built target thur
+[13.999s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4
+[14.325s] Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/thur
+[14.339s] -- Install configuration: ""
+[14.339s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/thur.xml
+[14.339s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur
+[14.339s] -- Installing: /home/hans/ros2_ws/install/include/thur/serial.hpp
+[14.342s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur/thur
+[14.342s] -- Up-to-date: /home/hans/ros2_ws/install/include/thur/thur/thur_diff.hpp
+[14.342s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch
+[14.343s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch/view_robot.launch.py
+[14.343s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/ros2_control
+[14.343s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/ros2_control/thur.ros2_control.xacro
+[14.344s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/urdf
+[14.344s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/urdf/thur.urdf.xacro
+[14.344s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch
+[14.344s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/launch/thur.launch.py
+[14.344s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/config
+[14.345s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/config/thur_controllers.yaml
+[14.345s] -- Installing: /home/hans/ros2_ws/install/lib/libthur.so
+[14.345s] -- Set runtime path of "/home/hans/ros2_ws/install/lib/libthur.so" to ""
+[14.345s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/library_path.sh
+[14.345s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/library_path.dsv
+[14.346s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/thur
+[14.346s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/thur
+[14.346s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/ament_prefix_path.sh
+[14.346s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/ament_prefix_path.dsv
+[14.346s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/path.sh
+[14.347s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/environment/path.dsv
+[14.347s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.bash
+[14.348s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.sh
+[14.349s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.zsh
+[14.349s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/local_setup.dsv
+[14.349s] -- Installing: /home/hans/ros2_ws/install/share/thur/package.dsv
+[14.349s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/thur
+[14.350s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/thur
+[14.350s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/export_thurExport.cmake
+[14.351s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/export_thurExport-noconfig.cmake
+[14.351s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/ament_cmake_export_targets-extras.cmake
+[14.351s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.351s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/thurConfig.cmake
+[14.351s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/cmake/thurConfig-version.cmake
+[14.352s] -- Up-to-date: /home/hans/ros2_ws/install/share/thur/package.xml
+[14.426s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/thur

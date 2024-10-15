@@ -1,0 +1,56 @@
+[0.153s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_12': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_12 -- -j4 -l4
+[0.474s] [ 20%] Built target passthrough_controller_parameters
+[0.546s] [ 60%] Built target ros2_control_demo_example_12
+[0.737s] [100%] Built target passthrough_controller
+[0.811s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_12' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_12 -- -j4 -l4
+[1.023s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_12': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_12
+[1.072s] -- Install configuration: ""
+[1.073s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/ros2_control_demo_example_12.xml
+[1.074s] -- Up-to-date: /home/hans/ros2_ws/install/include/passthrough_controller_parameters
+[1.075s] -- Up-to-date: /home/hans/ros2_ws/install/include/passthrough_controller_parameters/passthrough_controller_parameters.hpp
+[1.075s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/passthrough_controller.xml
+[1.076s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_12
+[1.076s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_12/ros2_control_demo_example_12
+[1.076s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_12/ros2_control_demo_example_12/rrbot.hpp
+[1.076s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/launch
+[1.076s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/launch/view_robot.launch.py
+[1.076s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/ros2_control
+[1.077s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/ros2_control/rrbot.ros2_control.xacro
+[1.077s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/urdf
+[1.077s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/urdf/rrbot.urdf.xacro
+[1.077s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/launch
+[1.077s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/launch/launch_chained_controllers.launch.py
+[1.077s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/launch/rrbot.launch.py
+[1.078s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/config
+[1.078s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/config/rrbot_chained_controllers.yaml
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/lib/libros2_control_demo_example_12.so
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/include/passthrough_controller
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/include/passthrough_controller/passthrough_controller
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/include/passthrough_controller/passthrough_controller/passthrough_controller.hpp
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/lib/libpassthrough_controller.so
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/environment/library_path.sh
+[1.079s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/environment/library_path.dsv
+[1.080s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_12
+[1.080s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_12
+[1.080s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/environment/ament_prefix_path.sh
+[1.080s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/environment/ament_prefix_path.dsv
+[1.080s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/environment/path.sh
+[1.082s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/environment/path.dsv
+[1.082s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/local_setup.bash
+[1.083s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/local_setup.sh
+[1.083s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/local_setup.zsh
+[1.083s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/local_setup.dsv
+[1.083s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/package.dsv
+[1.084s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/ros2_control_demo_example_12
+[1.085s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_12
+[1.086s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ros2_control_demo_example_12
+[1.086s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/export_passthrough_controllerExport.cmake
+[1.087s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/export_passthrough_controllerExport-noconfig.cmake
+[1.087s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/export_ros2_control_demo_example_12Export.cmake
+[1.087s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/export_ros2_control_demo_example_12Export-noconfig.cmake
+[1.087s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/ament_cmake_export_targets-extras.cmake
+[1.087s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.087s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/ros2_control_demo_example_12Config.cmake
+[1.088s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/cmake/ros2_control_demo_example_12Config-version.cmake
+[1.088s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_12/package.xml
+[1.219s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_12' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_12

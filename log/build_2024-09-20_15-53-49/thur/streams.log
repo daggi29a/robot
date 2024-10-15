@@ -1,0 +1,22 @@
+[0.065s] Invoking command in '/home/hans/ros2_ws/build/thur': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install LD_LIBRARY_PATH=/home/hans/ros2_ws/install/lib PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target thur[0m
+[0.302s] [ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[6.097s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.097s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:191:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.097s]   191 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[6.097s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.097s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type thur::ThurSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.097s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:255:31:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst uint8_t*[m[K’ {aka ‘[01m[Kconst unsigned char*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.097s]   255 |     serial_port_->write_frame([01;31m[Kmessage[m[K, 6);
+[6.098s]       |                               [01;31m[K^~~~~~~[m[K
+[6.098s]       |                               [01;31m[K|[m[K
+[6.098s]       |                               [01;31m[Kint[m[K
+[6.098s] In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/thur/thur_diff.hpp:33[m[K,
+[6.098s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:26[m[K:
+[6.098s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/serial.hpp:36:48:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kthur::return_type thur::ThurSerialPort::write_frame(const uint8_t*, size_t)[m[K’
+[6.098s]    36 |         return_type write_frame([01;36m[Kconst uint8_t* data[m[K, size_t size);
+[6.098s]       |                                 [01;36m[K~~~~~~~~~~~~~~~^~~~[m[K
+[7.950s] gmake[2]: *** [CMakeFiles/thur.dir/build.make:76: CMakeFiles/thur.dir/hardware/thur_diff.cpp.o] Fehler 1
+[7.951s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thur.dir/all] Fehler 2
+[7.953s] gmake: *** [Makefile:146: all] Fehler 2
+[7.956s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '2': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install LD_LIBRARY_PATH=/home/hans/ros2_ws/install/lib PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4

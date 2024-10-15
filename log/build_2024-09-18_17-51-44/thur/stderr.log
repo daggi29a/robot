@@ -1,0 +1,12 @@
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K In member function ‘[01m[Kthur::return_type thur::ThurSerialPort::read_frames(std::vector<thur::SerialHdlcFrame>&)[m[K’:
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:93:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+   93 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+      |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:10[m[K:
+[01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/serial.hpp:44:17:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kthur::ThurSerialPort::rx_buffer_[m[K’ of size 200
+   44 |         uint8_t [01;36m[Krx_buffer_[m[K[THUR_SERIAL_BUFFER_MAX_SIZE];
+      |                 [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:7[m[K:
+[01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+  371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+      |                [01;36m[K^~~~[m[K

@@ -1,0 +1,39 @@
+[0.027s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_15': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_15 -- -j1 -l1
+[0.130s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_15' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_15 -- -j1 -l1
+[0.190s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_15': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_15
+[0.208s] -- Install configuration: ""
+[0.208s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/rviz
+[0.211s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/rviz/multi_controller_manager.rviz
+[0.211s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/rviz/rrbot_namespace.rviz
+[0.211s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch
+[0.211s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/test_forward_position_controller.launch.py
+[0.211s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/test_multi_controller_manager_forward_position_controller.launch.py
+[0.212s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/rrbot_base.launch.py
+[0.212s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/test_multi_controller_manager_joint_trajectory_controller.launch.py
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/rrbot_namespace.launch.py
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/test_joint_trajectory_controller.launch.py
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/launch/multi_controller_manager_example_two_rrbots.launch.py
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/multi_controller_manager_rrbot_1_controllers.yaml
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/rrbot_namespace_controllers.yaml
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/rrbot_namespace_joint_trajectory_publisher.yaml
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/multi_controller_manager_joint_trajectory_publisher.yaml
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/multi_controller_manager_rrbot_2_controllers.yaml
+[0.213s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/rrbot_namespace_forward_position_publisher.yaml
+[0.214s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/config/multi_controller_manager_forward_position_publisher.yaml
+[0.214s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_15
+[0.216s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_15
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/environment/ament_prefix_path.sh
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/environment/ament_prefix_path.dsv
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/environment/path.sh
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/environment/path.dsv
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/local_setup.bash
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/local_setup.sh
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/local_setup.zsh
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/local_setup.dsv
+[0.217s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/package.dsv
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/ros2_control_demo_example_15
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/cmake/ros2_control_demo_example_15Config.cmake
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/cmake/ros2_control_demo_example_15Config-version.cmake
+[0.217s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_15/package.xml
+[0.225s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_15' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_15

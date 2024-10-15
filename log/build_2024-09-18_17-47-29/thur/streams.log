@@ -1,0 +1,134 @@
+[0.024s] Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j1 -l1
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target thur[0m
+[0.195s] [ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/serial.cpp.o[0m
+[6.425s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_control_demo_example_2[m[K’ is not a namespace-name
+[6.427s]    17 | using namespace [01;31m[Kros2_control_demo_example_2[m[K;
+[6.428s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.431s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:19:1:[m[K [01;31m[Kerror: [m[K‘[01m[KThurSerialPort[m[K’ does not name a type
+[6.431s]    19 | [01;31m[KThurSerialPort[m[K::ThurSerialPort()
+[6.431s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.439s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:30:1:[m[K [01;31m[Kerror: [m[K‘[01m[KThurSerialPort[m[K’ does not name a type
+[6.439s]    30 | [01;31m[KThurSerialPort[m[K::~ThurSerialPort()
+[6.439s]       | [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.444s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:35:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+[6.444s]    35 | [01;31m[Kreturn_type[m[K ThurSerialPort::open(const std::string & port_name)
+[6.444s]       | [01;31m[K^~~~~~~~~~~[m[K
+[6.444s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:81:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+[6.445s]    81 | [01;31m[Kreturn_type[m[K ThurSerialPort::close()
+[6.445s]       | [01;31m[K^~~~~~~~~~~[m[K
+[6.449s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:90:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+[6.449s]    90 | [01;31m[Kreturn_type[m[K ThurSerialPort::read_frames(std::vector<SerialHdlcFrame>& frames)
+[6.451s]       | [01;31m[K^~~~~~~~~~~[m[K
+[6.454s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:106:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+[6.455s]   106 | [01;31m[Kreturn_type[m[K ThurSerialPort::write_frame(const uint8_t* data, size_t size)
+[6.455s]       | [01;31m[K^~~~~~~~~~~[m[K
+[6.456s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:132:6:[m[K [01;31m[Kerror: [m[K‘[01m[KThurSerialPort[m[K’ has not been declared
+[6.456s]   132 | bool [01;31m[KThurSerialPort[m[K::is_open() const
+[6.456s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.458s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:132:32:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kbool is_open()[m[K’ cannot have cv-qualifier
+[6.458s]   132 | bool ThurSerialPort::is_open() [01;31m[Kconst[m[K
+[6.458s]       |                                [01;31m[K^~~~~[m[K
+[6.472s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K In function ‘[01m[Kbool is_open()[m[K’:
+[6.472s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:134:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[6.472s]   134 |     return [01;31m[Kserial_port_[m[K >= 0;
+[6.472s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[6.472s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K At global scope:
+[6.472s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:137:6:[m[K [01;31m[Kerror: [m[K‘[01m[KThurSerialPort[m[K’ has not been declared
+[6.473s]   137 | void [01;31m[KThurSerialPort[m[K::encode_byte(uint8_t data)
+[6.473s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.485s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K In function ‘[01m[Kvoid encode_byte(uint8_t)[m[K’:
+[6.488s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:140:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx_frame_buffer_[m[K’ was not declared in this scope
+[6.488s]   140 |         [01;31m[Ktx_frame_buffer_[m[K[tx_frame_length_++] = HDLC_ESCAPE_FLAG;
+[6.488s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.499s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:140:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx_frame_length_[m[K’ was not declared in this scope
+[6.499s]   140 |         tx_frame_buffer_[[01;31m[Ktx_frame_length_[m[K++] = HDLC_ESCAPE_FLAG;
+[6.499s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.512s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:143:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx_frame_buffer_[m[K’ was not declared in this scope
+[6.512s]   143 |     [01;31m[Ktx_frame_buffer_[m[K[tx_frame_length_++] = data;
+[6.512s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.524s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:143:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktx_frame_length_[m[K’ was not declared in this scope
+[6.524s]   143 |     tx_frame_buffer_[[01;31m[Ktx_frame_length_[m[K++] = data;
+[6.524s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.527s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K At global scope:
+[6.527s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:146:6:[m[K [01;31m[Kerror: [m[K‘[01m[KThurSerialPort[m[K’ has not been declared
+[6.527s]   146 | void [01;31m[KThurSerialPort[m[K::decode_byte(uint8_t data, std::vector<SerialHdlcFrame>& frames)
+[6.527s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.529s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:146:60:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialHdlcFrame[m[K’ was not declared in this scope; did you mean ‘[01m[Kthur::SerialHdlcFrame[m[K’?
+[6.529s]   146 | void ThurSerialPort::decode_byte(uint8_t data, std::vector<[01;31m[KSerialHdlcFrame[m[K>& frames)
+[6.529s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.529s]       |                                                            [32m[Kthur::SerialHdlcFrame[m[K
+[6.529s] In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:10[m[K:
+[6.529s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/serial.hpp:19:12:[m[K [01;36m[Knote: [m[K‘[01m[Kthur::SerialHdlcFrame[m[K’ declared here
+[6.529s]    19 |     struct [01;36m[KSerialHdlcFrame[m[K
+[6.529s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.530s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:146:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.530s]   146 | void ThurSerialPort::decode_byte(uint8_t data, std::vector<SerialHdlcFrame[01;31m[K>[m[K& frames)
+[6.530s]       |                                                                           [01;31m[K^[m[K
+[6.530s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:146:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[6.540s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K In function ‘[01m[Kvoid decode_byte(uint8_t, int&)[m[K’:
+[6.540s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:149:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_escape_[m[K’ was not declared in this scope
+[6.540s]   149 |         if ([01;31m[Krx_frame_escape_[m[K) {
+[6.541s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.554s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:152:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_length_[m[K’ was not declared in this scope
+[6.554s]   152 |         else if ([01;31m[Krx_frame_length_[m[K >= 2 && rx_frame_crc_ == ((rx_frame_buffer_[rx_frame_length_ - 1] << 8) | rx_frame_buffer_[rx_frame_length_ - 2])) {
+[6.554s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.563s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:152:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_crc_[m[K’ was not declared in this scope
+[6.563s]   152 |         else if (rx_frame_length_ >= 2 && [01;31m[Krx_frame_crc_[m[K == ((rx_frame_buffer_[rx_frame_length_ - 1] << 8) | rx_frame_buffer_[rx_frame_length_ - 2])) {
+[6.563s]       |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[6.579s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:152:62:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_buffer_[m[K’ was not declared in this scope
+[6.579s]   152 |         else if (rx_frame_length_ >= 2 && rx_frame_crc_ == (([01;31m[Krx_frame_buffer_[m[K[rx_frame_length_ - 1] << 8) | rx_frame_buffer_[rx_frame_length_ - 2])) {
+[6.579s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.581s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:153:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialHdlcFrame[m[K’ was not declared in this scope; did you mean ‘[01m[Kthur::SerialHdlcFrame[m[K’?
+[6.581s]   153 |             [01;31m[KSerialHdlcFrame[m[K frame;
+[6.581s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.583s]       |             [32m[Kthur::SerialHdlcFrame[m[K
+[6.583s] In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:10[m[K:
+[6.583s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/serial.hpp:19:12:[m[K [01;36m[Knote: [m[K‘[01m[Kthur::SerialHdlcFrame[m[K’ declared here
+[6.583s]    19 |     struct [01;36m[KSerialHdlcFrame[m[K
+[6.583s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.591s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:154:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope; did you mean ‘[01m[Kframes[m[K’?
+[6.591s]   154 |             memcpy([01;31m[Kframe[m[K.data, rx_frame_buffer_, rx_frame_length_ - 2);
+[6.591s]       |                    [01;31m[K^~~~~[m[K
+[6.591s]       |                    [32m[Kframes[m[K
+[6.591s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:156:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kframes[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[6.591s]   156 |             frames.[01;31m[Kpush_back[m[K(frame);
+[6.591s]       |                    [01;31m[K^~~~~~~~~[m[K
+[6.607s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_length_[m[K’ was not declared in this scope
+[6.607s]   158 |         [01;31m[Krx_frame_length_[m[K = 0;
+[6.607s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.615s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:159:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_crc_[m[K’ was not declared in this scope
+[6.615s]   159 |         [01;31m[Krx_frame_crc_[m[K = HDLC_CRC_INIT_VALUE;
+[6.615s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.626s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:164:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_escape_[m[K’ was not declared in this scope
+[6.627s]   164 |         [01;31m[Krx_frame_escape_[m[K = true;
+[6.627s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.637s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:168:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_escape_[m[K’ was not declared in this scope
+[6.637s]   168 |     if ([01;31m[Krx_frame_escape_[m[K) {
+[6.638s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.650s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:173:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_buffer_[m[K’ was not declared in this scope
+[6.651s]   173 |     [01;31m[Krx_frame_buffer_[m[K[rx_frame_length_] = data;
+[6.651s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.662s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:173:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_length_[m[K’ was not declared in this scope
+[6.662s]   173 |     rx_frame_buffer_[[01;31m[Krx_frame_length_[m[K] = data;
+[6.663s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.676s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:175:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_crc_[m[K’ was not declared in this scope
+[6.676s]   175 |         [01;31m[Krx_frame_crc_[m[K = crc_update(rx_frame_crc_, rx_frame_buffer_[rx_frame_length_ - 2]);
+[6.676s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.684s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:175:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcrc_update[m[K’ was not declared in this scope
+[6.685s]   175 |         rx_frame_crc_ = [01;31m[Kcrc_update[m[K(rx_frame_crc_, rx_frame_buffer_[rx_frame_length_ - 2]);
+[6.685s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[6.716s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:179:29:[m[K [01;31m[Kerror: [m[K‘[01m[KMECANUMBOT_SERIAL_SERIAL_FRAME_MAX_SIZE[m[K’ was not declared in this scope; did you mean ‘[01m[KTHUR_SERIAL_SERIAL_FRAME_MAX_SIZE[m[K’?
+[6.716s]   179 |     if (rx_frame_length_ == [01;31m[KMECANUMBOT_SERIAL_SERIAL_FRAME_MAX_SIZE[m[K) {
+[6.716s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.716s]       |                             [32m[KTHUR_SERIAL_SERIAL_FRAME_MAX_SIZE[m[K
+[6.724s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:181:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krx_frame_crc_[m[K’ was not declared in this scope
+[6.725s]   181 |         [01;31m[Krx_frame_crc_[m[K = HDLC_CRC_INIT_VALUE;
+[6.725s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[6.725s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:[m[K At global scope:
+[6.725s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/serial.cpp:185:10:[m[K [01;31m[Kerror: [m[K‘[01m[KThurSerialPort[m[K’ has not been declared
+[6.725s]   185 | uint16_t [01;31m[KThurSerialPort[m[K::crc_update(uint16_t crc, uint8_t data)
+[6.725s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.058s] gmake[2]: *** [CMakeFiles/thur.dir/build.make:90: CMakeFiles/thur.dir/hardware/serial.cpp.o] Fehler 1
+[8.058s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thur.dir/all] Fehler 2
+[8.058s] gmake: *** [Makefile:146: all] Fehler 2
+[8.062s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j1 -l1

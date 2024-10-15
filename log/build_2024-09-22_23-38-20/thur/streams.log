@@ -1,0 +1,101 @@
+[0.121s] Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target thur[0m
+[0.593s] [ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[1.949s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:158:124:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[1.949s]   158 | rclcpp::get_logger("ThurSystemHardware"), "Trying to activate serial port '%s' ...", serial_port_.c_str()[01;35m[K"[m[K, );
+[1.949s]       |                                                                                                          [01;35m[K^[m[K
+[1.950s] 
+[1.950s] [01m[Kcc1plus:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[9.520s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn thur::ThurSystemHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[9.520s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:158:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[9.520s]   158 |       [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("ThurSystemHardware"), "Trying to activate serial port '%s' ...", serial_port_.c_str()", );
+[9.520s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[9.523s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[9.523s]                  from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[9.523s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.524s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.524s] [01m[K/opt/ros/iron/include/class_loader/class_loader/exceptions.hpp:40:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[9.524s]    40 | [01;31m[Knamespace[m[K class_loader
+[9.524s]       | [01;31m[K^~~~~~~~~[m[K
+[9.524s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:58[m[K,
+[9.525s]                  from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[9.525s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.525s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.525s] [01m[K/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp:43:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[9.531s]    43 | [01;31m[Knamespace[m[K class_loader
+[9.531s]       | [01;31m[K^~~~~~~~~[m[K
+[9.534s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[9.534s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.534s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.535s] [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:68:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[9.535s]    68 | [01;31m[Knamespace[m[K class_loader
+[9.535s]       | [01;31m[K^~~~~~~~~[m[K
+[9.535s] In file included from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.535s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.535s] [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[Knamespace[m[K’ definition is not allowed here
+[9.535s]    59 | [01;31m[Knamespace[m[K class_loader
+[9.536s]       | [01;31m[K^~~~~~~~~[m[K
+[9.536s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.536s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.536s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.536s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+[9.536s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.537s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.537s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass_loader[m[K’ does not name a type
+[9.541s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.541s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.541s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:50[m[K,
+[9.542s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.545s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.545s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In constructor ‘[01m[Kthur::ThurSystemHardware::on_activate(const rclcpp_lifecycle::State&)::ProxyExec0::ProxyExec0()[m[K’:
+[9.545s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kconsole_bridge[m[K’ has not been declared
+[9.546s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.546s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.546s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kconsole_bridge[m[K’ has not been declared
+[9.546s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.546s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.551s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.551s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.551s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.552s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kholder[m[K’ was not declared in this scope
+[9.552s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.552s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.552s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass_loader[m[K’ has not been declared
+[9.552s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.552s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.553s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[9.553s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.553s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.553s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[9.553s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.553s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.559s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn thur::ThurSystemHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[9.559s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.559s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.560s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.560s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:157:70:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.560s]   157 |   if (serial_port_->open(serial_port_name_) != return_type::SUCCESS) [01;36m[K{[m[K
+[9.560s]       |                                                                      [01;36m[K^[m[K
+[9.560s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.560s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.560s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.561s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.561s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.561s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.561s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:133:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.561s]   133 | [01;36m[K{[m[K
+[9.561s]       | [01;36m[K^[m[K
+[9.562s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.578s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[9.578s]                  from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:270[m[K:
+[9.578s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:[m[K At global scope:
+[9.578s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:271:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.578s]   271 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[9.579s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.579s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:30:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.579s]    30 | [01;36m[K{[m[K
+[9.579s]       | [01;36m[K^[m[K
+[12.283s] gmake[2]: *** [CMakeFiles/thur.dir/build.make:76: CMakeFiles/thur.dir/hardware/thur_diff.cpp.o] Fehler 1
+[12.285s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thur.dir/all] Fehler 2
+[12.286s] gmake: *** [Makefile:146: all] Fehler 2
+[12.295s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j4 -l4

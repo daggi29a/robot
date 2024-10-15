@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/hans/ros2_ws/build/thur': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j1 -l1
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target thur[0m
+[0.192s] [ 33%] [32mBuilding CXX object CMakeFiles/thur.dir/hardware/thur_diff.cpp.o[0m
+[0.642s] In file included from [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/thur_diff.cpp:15[m[K:
+[0.642s] [01m[K/home/hans/ros2_ws/src/ros2_control_demos/thur/hardware/include/thur/thur_diff.hpp:33:10:[m[K [01;31m[Kfatal error: [m[Khardware/include/serial.hpp: Datei oder Verzeichnis nicht gefunden
+[0.642s]    33 | #include [01;31m[K"hardware/include/serial.hpp"[m[K
+[0.643s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.644s] compilation terminated.
+[0.651s] gmake[2]: *** [CMakeFiles/thur.dir/build.make:76: CMakeFiles/thur.dir/hardware/thur_diff.cpp.o] Fehler 1
+[0.656s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thur.dir/all] Fehler 2
+[0.656s] gmake: *** [Makefile:146: all] Fehler 2
+[0.660s] Invoked command in '/home/hans/ros2_ws/build/thur' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/thur -- -j1 -l1

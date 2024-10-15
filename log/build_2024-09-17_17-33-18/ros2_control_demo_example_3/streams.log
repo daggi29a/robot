@@ -1,0 +1,76 @@
+[0.009s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_3': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install:/opt/ros/iron PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hans/ros2_ws/src/ros2_control_demos/example_3 -DCMAKE_INSTALL_PREFIX=/home/hans/ros2_ws/install
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.212s] -- Detecting CXX compile features
+[0.212s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.376s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Found hardware_interface: 3.28.0 (/opt/ros/iron/share/hardware_interface/cmake)
+[0.507s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.518s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.348s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.350s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.387s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.449s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.452s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.464s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.470s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.478s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.711s] -- Found ament_cmake_pytest: 2.0.6 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+[2.785s] -- Configuring done
+[2.800s] -- Generating done
+[2.804s] -- Build files have been written to: /home/hans/ros2_ws/build/ros2_control_demo_example_3
+[2.828s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_3' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install:/opt/ros/iron PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hans/ros2_ws/src/ros2_control_demos/example_3 -DCMAKE_INSTALL_PREFIX=/home/hans/ros2_ws/install
+[2.830s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_3': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install:/opt/ros/iron PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_3 -- -j1 -l1
+[2.888s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_3.dir/hardware/rrbot_system_multi_interface.cpp.o[0m
+[8.197s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_3.so[0m
+[8.373s] [100%] Built target ros2_control_demo_example_3
+[8.388s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_3' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install:/opt/ros/iron PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_3 -- -j1 -l1
+[8.413s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_3': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install:/opt/ros/iron PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_3
+[8.422s] -- Install configuration: ""
+[8.422s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/ros2_control_demo_example_3.xml
+[8.423s] -- Installing: /home/hans/ros2_ws/install/include/ros2_control_demo_example_3
+[8.424s] -- Installing: /home/hans/ros2_ws/install/include/ros2_control_demo_example_3/ros2_control_demo_example_3
+[8.424s] -- Installing: /home/hans/ros2_ws/install/include/ros2_control_demo_example_3/ros2_control_demo_example_3/rrbot_system_multi_interface.hpp
+[8.424s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/launch
+[8.424s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/launch/view_robot.launch.py
+[8.425s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/ros2_control
+[8.425s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/ros2_control/rrbot_system_multi_interface.ros2_control.xacro
+[8.426s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/urdf
+[8.426s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/urdf/rrbot_system_multi_interface.urdf.xacro
+[8.426s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/launch
+[8.426s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/launch/test_forward_position_controller.launch.py
+[8.427s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/launch/rrbot_system_multi_interface.launch.py
+[8.427s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/config
+[8.427s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/config/rrbot_forward_position_publisher.yaml
+[8.428s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/config/rrbot_multi_interface_forward_controllers.yaml
+[8.429s] -- Installing: /home/hans/ros2_ws/install/lib/libros2_control_demo_example_3.so
+[8.430s] -- Set runtime path of "/home/hans/ros2_ws/install/lib/libros2_control_demo_example_3.so" to ""
+[8.430s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/environment/library_path.sh
+[8.431s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/environment/library_path.dsv
+[8.431s] -- Installing: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_3
+[8.431s] -- Installing: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_3
+[8.432s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/environment/ament_prefix_path.sh
+[8.432s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/environment/ament_prefix_path.dsv
+[8.432s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/environment/path.sh
+[8.433s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/environment/path.dsv
+[8.433s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/local_setup.bash
+[8.433s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/local_setup.sh
+[8.434s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/local_setup.zsh
+[8.434s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/local_setup.dsv
+[8.434s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/package.dsv
+[8.434s] -- Installing: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/ros2_control_demo_example_3
+[8.435s] -- Installing: /home/hans/ros2_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_3
+[8.435s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/cmake/export_ros2_control_demo_example_3Export.cmake
+[8.435s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/cmake/export_ros2_control_demo_example_3Export-noconfig.cmake
+[8.436s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/cmake/ament_cmake_export_targets-extras.cmake
+[8.436s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.436s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/cmake/ros2_control_demo_example_3Config.cmake
+[8.436s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/cmake/ros2_control_demo_example_3Config-version.cmake
+[8.437s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_3/package.xml
+[8.439s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_3' returned '0': AMENT_PREFIX_PATH=/home/hans/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hans/ros2_ws/install:/opt/ros/iron PYTHONPATH=/home/hans/ros2_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_3

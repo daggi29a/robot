@@ -1,0 +1,49 @@
+[0.090s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_5 -- -j4 -l4
+[0.415s] [100%] Built target ros2_control_demo_example_5
+[0.501s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/hans/ros2_ws/build/ros2_control_demo_example_5 -- -j4 -l4
+[0.761s] Invoking command in '/home/hans/ros2_ws/build/ros2_control_demo_example_5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_5
+[0.773s] -- Install configuration: ""
+[0.777s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/ros2_control_demo_example_5.xml
+[0.778s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_5
+[0.780s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_5/ros2_control_demo_example_5
+[0.781s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_5/ros2_control_demo_example_5/external_rrbot_force_torque_sensor.hpp
+[0.781s] -- Up-to-date: /home/hans/ros2_ws/install/include/ros2_control_demo_example_5/ros2_control_demo_example_5/rrbot.hpp
+[0.782s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/launch
+[0.782s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/launch/view_robot.launch.py
+[0.788s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/ros2_control
+[0.789s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/ros2_control/external_rrbot_force_torque_sensor.ros2_control.xacro
+[0.789s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[0.789s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/urdf
+[0.789s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/urdf/rrbot_system_with_external_sensor.urdf.xacro
+[0.790s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/rviz
+[0.790s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/rviz/rrbot.rviz
+[0.790s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/launch
+[0.790s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/launch/test_forward_position_controller.launch.py
+[0.790s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/launch/rrbot_system_with_external_sensor.launch.py
+[0.791s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/config
+[0.791s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/config/rrbot_forward_position_publisher.yaml
+[0.791s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/config/rrbot_with_external_sensor_controllers.yaml
+[0.792s] -- Up-to-date: /home/hans/ros2_ws/install/lib/libros2_control_demo_example_5.so
+[0.792s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/environment/library_path.sh
+[0.793s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/environment/library_path.dsv
+[0.793s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_5
+[0.794s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_5
+[0.794s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/environment/ament_prefix_path.sh
+[0.794s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/environment/ament_prefix_path.dsv
+[0.794s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/environment/path.sh
+[0.795s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/environment/path.dsv
+[0.795s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/local_setup.bash
+[0.795s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/local_setup.sh
+[0.795s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/local_setup.zsh
+[0.795s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/local_setup.dsv
+[0.796s] -- Installing: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/package.dsv
+[0.797s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/packages/ros2_control_demo_example_5
+[0.797s] -- Up-to-date: /home/hans/ros2_ws/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_5
+[0.798s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/cmake/export_ros2_control_demo_example_5Export.cmake
+[0.798s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/cmake/export_ros2_control_demo_example_5Export-noconfig.cmake
+[0.798s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/cmake/ament_cmake_export_targets-extras.cmake
+[0.798s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.799s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/cmake/ros2_control_demo_example_5Config.cmake
+[0.799s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/cmake/ros2_control_demo_example_5Config-version.cmake
+[0.799s] -- Up-to-date: /home/hans/ros2_ws/install/share/ros2_control_demo_example_5/package.xml
+[0.889s] Invoked command in '/home/hans/ros2_ws/build/ros2_control_demo_example_5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/hans/ros2_ws/build/ros2_control_demo_example_5

@@ -1,0 +1,4 @@
+source;share/thur/local_setup.bash
+source;share/thur/local_setup.dsv
+source;share/thur/local_setup.sh
+source;share/thur/local_setup.zsh
